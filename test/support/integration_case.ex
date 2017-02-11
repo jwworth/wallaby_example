@@ -6,6 +6,7 @@ defmodule WallabyExample.IntegrationCase do
     quote do
       use Wallaby.DSL
 
+      alias WallabyExample.Endpoint
       import Ecto
       import Ecto.Changeset
       import Ecto.Query
